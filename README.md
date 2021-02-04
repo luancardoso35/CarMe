@@ -27,5 +27,5 @@ This project works like a car dealership site, without e-commerce.
 - About Us page
 ![Alt text](https://i.postimg.cc/W416nvSC/imagem-2021-02-04-043247.png)
 
-- Car details
-![](https://i.postimg.cc/PrZjXGWg/detalhe.gif)
+- Car details (gif with the page)
+[detalhe.gif](https://postimg.cc/ZCTgHMDH)
