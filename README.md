@@ -54,4 +54,4 @@ This project works like a car dealership site, without e-commerce.
 ![](https://i.postimg.cc/501h2jmT/imagem-2021-02-04-050219.png)
 
 ## Logoff
-![detalhe.gif](https://postimg.cc/K1Z4fxnz)
+[![quit.gif](https://i.postimg.cc/g2hRY0jv/quit.gif)](https://postimg.cc/K1Z4fxnz)
