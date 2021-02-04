@@ -1,6 +1,7 @@
 # CarMe
-This is a project developed in my free time. I've used JSP and JSTL to make the pages structure, using basically HTML with some other features given by JSP and JSTL, CSS and Javascript in the front-end, and Java servlets and a database in the back-end.
+This is a project developed in my free time. It's my first web app project, using database to store the data and mixing some languages that I'm new, like HTML, CSS and Javascript. I've used JSP and JSTL to make the pages structure, using basically HTML with some other features given by JSP and JSTL, CSS and Javascript in the front-end, and Java servlets and a database in the back-end.
 This project works like a car dealership site, without e-commerce. 
+Hope you like it!
 
 # Features
 - Initial page
