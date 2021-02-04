@@ -1,0 +1,284 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #b8b8b8;
+    padding: 0;
+}
+
+.buttonsFilter {
+    border-radius: 4px;
+    height: 30px;
+    background-color: #363636;
+    color: white;
+    margin-left: 6px;
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+#userName {
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+#text-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#titulo {
+    color: #4f4f4f;
+}
+
+#titulo > p {
+    font-size: 1.3rem;
+}
+
+#filtros {
+    align-self: center;
+
+}
+
+.filtro {
+    margin-right: 10px;
+    height: 20px;
+    width: 100px;
+    border: 2px solid #4f4f4f;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.filtro:focus {
+    outline: none;
+    border-radius: 10px;
+
+}
+
+#catalogo-carros {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.carro {
+    background-color: rgba(230, 230, 230, 0.5);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    width: 380px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    height: 540px;
+}
+
+.marca-modelo{
+    justify-self: center;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #4f4f4f;
+
+}
+
+.preco-total {
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.moeda {
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+.preco {
+    font-size: 2.2rem;
+    color: #4f4f4f;
+}
+
+.img-carro-dis {
+    display: block;
+    min-width: 250px;
+    max-width: 250px;
+
+    min-height: 185px;
+    max-height: 185px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.img-carro-ena {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.001);
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 200px;
+    max-height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cambio {
+    display: inline-block;
+    text-align: center;
+}
+
+.cambio > img {
+    width: 30px;
+}
+
+.assento {
+    display: inline-block;
+    text-align: center;
+}
+
+.assento > img {
+    width: 30px;
+}
+
+.ano {
+    display: inline-block;
+
+}
+
+.ano > img {
+    width: 30px;
+}
+
+.local {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.local > img {
+    width: 30px;
+}
+
+.local > span {
+    align-self: center;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 6px;
+    width: 200px;
+    height: 35px;
+    border-bottom: 5px solid black;
+}
+
+.button > a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.button:hover {
+    background-color:#27aadf;
+    transition: 0.3s;
+}
+
+#error {
+    margin: auto;
+    transform: translateY(300%);
+    font-size: 1.8rem;
+    color: rgb(61, 61, 61);
+}
+
+.button-div > button {
+    width: 280px;
+    height: 42px;
+}
+
+.destaque {
+    width: 480px;
+    transition: 0.5s;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    height: 620px;
+    margin-bottom: 40px;
+    transform: scale(1.005, 1.008);
+    border-radius: 10px;
+}
+
+.combustivelDis {
+    display: none;
+}
+
+.quilometragemDis {
+    display: none;
+}
+
+.combustivelEna {
+    display: inline-block;
+}
+
+.combustivelEna > img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.quilometragemEna > img {
+
+    width: 30px;
+    margin-right: 5px;
+}
+
+.quilometragemEna {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+#optional {
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+
+}
+
+#info {
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(61, 61, 61);
+}
+
+#none {
+    display: none;
+}
+
+#errorCPFDis {
+    display: none;
+}
+
+#errorCPFEna {
+    font-weight: 600;
+    color: red;
+    margin: 15px 0;
+    text-align: center;
+    font-size: 1.2rem;
+}

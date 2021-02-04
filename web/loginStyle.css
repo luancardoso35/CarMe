@@ -1,0 +1,152 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color:  #b8b8b8;
+}
+
+h1 {
+    color: white;
+    left: -10px;
+}
+
+#container {
+    display: flex;
+
+    background-color:  #b8b8b8;
+    top: 0;
+    padding: 0;
+    height: 650px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+#loginInner {
+    display: flex;
+    flex-direction: column;
+    transform: translateY(40%);
+    background-color: #363636;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    border-radius: 20px;
+    width: 205px;
+
+    margin-left: calc(30% - 80px);
+    padding: 5px 80px 40px 50px;
+}
+
+#loginInnerWithError {
+    display: flex;
+    flex-direction: column;
+    background-color: #363636;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    border-radius: 20px;
+    width: 205px;
+
+    margin-left: calc(30% - 80px);
+    padding: 40px 80px 40px 50px;
+    transform: translateY(35%);
+}
+
+#login {
+    transform: translateY(-10%);
+    display: flex;
+    background-color: #b8b8b8;
+    width: 30%;
+    height: 100%;
+
+}
+
+#image {
+    width: 60%;
+    align-self: center;
+    border-radius: 20px;
+}
+
+#carro {
+    transform: translateY(-9%);
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 560px;
+    opacity: 0.8;
+    margin-bottom: 45px;
+}
+
+a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #63c8ff;
+}
+
+.label {
+    color: white;
+    display: block;
+}
+
+.input {
+    font-weight: 600;
+    padding: 4px 10px;
+    margin-bottom: 12px;
+    height: 25px;
+    width: 110%;
+    border-radius: 10px;
+    border: none;
+    margin-top: 3px;
+    border-bottom: black 3px solid;
+}
+
+.input:focus {
+    background-color:#353535;
+    transition: 0.5s;
+    opacity: 0.8;
+    color: white;
+}
+
+#button {
+    background-color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 110%;
+    height: 45px;
+    border-radius: 20px;
+    margin-left: 10px;
+    border-bottom: 5px black solid;
+}
+
+#button:hover {
+    background-color:#3f52bd;
+    transition: 0.3s;
+
+}
+
+#errorEmpty {
+    color: red;
+    margin-top: 20px;
+    align-self: center;
+    margin-left: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#errorServlet {
+    color: red;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    margin-top: 8px;
+}
+
+#entrar:hover {
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+#method {
+    display: none
+}

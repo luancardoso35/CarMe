@@ -1,0 +1,118 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #b8b8b8;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+#text-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#texto {
+    padding: 0;
+    top: 0;
+    margin: 8px 0 20px 0;
+}
+
+#h1 {
+    margin: 0;
+}
+
+#texto {
+    margin: auto;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #4f4f4f;
+    margin-top: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#carro {
+    width: 770px;
+}
+
+#form {
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.input {
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    width: 350px;
+    height: 42px;
+    margin-right: 15px;
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+
+.input:focus {
+    background-color:#353535;
+    transition: 0.5s;
+    opacity: 0.8;
+    color: white;
+}
+
+#imagem {
+    display: inline-block;
+    font-size: 1.05rem;
+}
+
+#botao {
+    justify-self: center;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 450px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: white;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+#botao:hover {
+    background-color:#3f52bd;
+    transition: 0.3s;
+}
+
+#errorEmptyEnabled {
+    color: red;
+    margin: 15px 0 0 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+#errorEmptyDisabled {
+    display: none;
+}
+
+section {
+    padding-top: 17px;
+}
+
+#errorServlet {
+    color: red;
+    margin: 15px 0 0 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.cidade {
+    margin-bottom: 0;
+}

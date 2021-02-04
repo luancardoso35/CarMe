@@ -1,0 +1,143 @@
+header {
+    display: flex;
+    background-color: #b8b8b8;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#logo {
+    text-decoration: none;
+    margin-left: 85px;
+}
+
+#logo > h1 {
+    color: black;
+}
+
+#logo:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#buttons {
+    align-self: center;
+    display: flex;
+}
+
+.buttons {
+    margin-right: 50px;
+}
+
+.links-header {
+    text-decoration: none;
+    color: black;
+}
+
+.links-header:hover {
+    font-size: 1.1rem;
+    border-bottom: 1px solid black;
+    transition: 0.2s;
+}
+
+#user {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+#userImg {
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-top: 8px;
+}
+
+#username {
+    display: block;
+
+}
+
+#userImgDefault{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+#user > a {
+    text-decoration: none;
+}
+
+#userDefault {
+    color: black;
+    font-size: 1.3rem;
+}
+
+#userDefault:hover {
+    font-size: 1.4rem;
+    border-bottom: 1px solid black;
+    transition: 0.3s;
+}
+
+#burger {
+    cursor: pointer;
+}
+
+#burger div {
+    transition: all 0.4s ease;
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin: 5px 5px 5px 20px;
+}
+
+.active #line1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.active #line2 {
+    opacity: 0;
+}
+
+.active #line3 {
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+
+#menu-inactive {
+    display: none;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    top: 100px;
+    left: 1000px;
+    width: 180px;
+    border-radius: 20px;
+    border: 2px solid black;
+    border-top: none;
+    padding: 8px;
+    background-color: white;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+#logout > img {
+    width: 30px;
+}
+
+.option {
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 10px;
+}
+
+#menu > a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu > a:hover {
+    font-size: 1.1em;
+    border-bottom: 1px solid black;
+    transition: 0.3s ease;
+}
