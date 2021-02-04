@@ -19,13 +19,32 @@ This project works like a car dealership site, without e-commerce.
 
 ![Alt text](https://i.postimg.cc/VN89xwKK/imagem-2021-02-04-042746.png)
 
+- Register Page
+![](https://i.postimg.cc/GtNrtdtD/imagem-2021-02-04-050333.png)
+
+- Login Page
+![](https://i.postimg.cc/QxTZSLV6/imagem-2021-02-04-050405.png)
+
 - Catalogue Page without and with some announcements
 ![Alt text](https://i.postimg.cc/nzwDhf1b/imagem-2021-02-04-042912.png)
 
-![](https://i.postimg.cc/T384CpWS/catalogo.gif)
+Card animation gif <br />
+[detalhe.gif](https://postimg.cc/fS43Zd1W)
 
 - About Us page
 ![Alt text](https://i.postimg.cc/W416nvSC/imagem-2021-02-04-043247.png)
 
-- Car details (gif with the page)
+- Car details (gif with the page) <br />
 [detalhe.gif](https://postimg.cc/ZCTgHMDH)
+
+- Profile page <br />
+[detalhe.gif](https://postimg.cc/G9q2qZmh)
+
+Edit user information (user can change name, email and phone number only) <br />
+[detalhe.gif](https://postimg.cc/R3B4MRZD)
+
+Announcements view and delete an announcement <br />
+[detalhe.gif](https://postimg.cc/kBKHndR7)
+
+- Announcements page
+![](https://i.postimg.cc/501h2jmT/imagem-2021-02-04-050219.png)
