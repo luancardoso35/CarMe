@@ -14,3 +14,18 @@ This project works like a car dealership site, without e-commerce.
 - Page "About Us"
 
 # Some screenshots
+- Initial Page without/with login
+![Alt text](https://i.postimg.cc/NG4nbJjh/1.png)
+
+![Alt text](https://i.postimg.cc/VN89xwKK/imagem-2021-02-04-042746.png)
+
+- Catalogue Page without and with some announcements
+![Alt text](https://i.postimg.cc/nzwDhf1b/imagem-2021-02-04-042912.png)
+
+![](https://i.postimg.cc/T384CpWS/catalogo.gif)
+
+- About Us page
+![Alt text](https://i.postimg.cc/W416nvSC/imagem-2021-02-04-043247.png)
+
+- Car details
+![](https://i.postimg.cc/PrZjXGWg/detalhe.gif)
